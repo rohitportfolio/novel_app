@@ -14,7 +14,7 @@ export const buildSentence = (
 };
 
 i18n.use(initReactI18next).init({
-  // compatibilityJSON: 'v3',
+  compatibilityJSON: 'v3',
   resources,
   lng: 'en',
   fallbackLng: 'en',
