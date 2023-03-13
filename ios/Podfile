@@ -49,3 +49,15 @@ target 'NovelApp' do
     __apply_Xcode_12_5_M1_post_install_workaround(installer)
   end
 end
+
+
+# bug=> {Error installing a pod - Bus Error at 0x00000001045b8000}
+# soultion command ---> gem install --user-install ffi -- --enable-libffi-alloc
+
+
+# pod install --->
+# command - bundle install
+# command - bundle exec pod install
+
+# arch -arm64 bundle install
+# arch -arm64 bundle exec pod install
